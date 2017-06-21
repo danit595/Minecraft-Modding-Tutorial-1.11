@@ -1,2 +1,3 @@
 item.tutorial:tutorial_item.name=Tutorial Item
 tile.tutorial:tutorial_block.name=Tutorial Block
+itemGroup.tab_tutorial=Tutorial Mod

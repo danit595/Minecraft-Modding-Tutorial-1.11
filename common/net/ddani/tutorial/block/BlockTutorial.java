@@ -14,7 +14,8 @@ public class BlockTutorial extends Block {
 		setHardness(5.0f);
 		setHarvestLevel("pickaxe", 2);
 		setSoundType(SoundType.METAL);
-		setResistance(10.0f);		
+		setResistance(10.0f);
+		setCreativeTab(Tutorial.tabTutorial);
 	}
 
 	@Override

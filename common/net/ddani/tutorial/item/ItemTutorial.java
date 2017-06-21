@@ -11,6 +11,10 @@ import net.minecraft.util.text.TextComponentString;
 import net.minecraft.world.World;
 
 public class ItemTutorial extends Item {
+	
+	public ItemTutorial() {
+		setCreativeTab(Tutorial.tabTutorial);
+	}
 	@Override
 	 public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn)
 	 {	
