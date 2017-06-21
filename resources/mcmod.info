@@ -1,0 +1,12 @@
+[
+{
+ "modid": "tutorial",
+ "name": "Tutorial Mod",
+ "description": "A tutorial mod for Minecraft 1.11",
+ "version": "${version}",
+ "mcversion": "${mcversion}",
+ "url": "https://github.com/danit595/Minecraft-Modding-Tutorial-1.11",
+ "authors": ["Danit595"],
+ "credits": ""
+}
+]
