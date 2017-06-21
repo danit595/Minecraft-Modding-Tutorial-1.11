@@ -13,6 +13,7 @@ import net.minecraft.world.World;
 public class ItemTutorial extends Item {
 	
 	public ItemTutorial() {
+		setMaxStackSize(64);
 		setCreativeTab(Tutorial.tabTutorial);
 	}
 	@Override
