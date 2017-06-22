@@ -26,8 +26,6 @@ public class ModItems {
 		steel_ingot.setRegistryName(new ResourceLocation(Tutorial.mod_id,Names.steel_ingot));
 		GameRegistry.register(steel_ingot);
 	}	
-
-	}
 	
 	@SideOnly(Side.CLIENT)
 	public static void initClient(ItemModelMesher mesher) {
