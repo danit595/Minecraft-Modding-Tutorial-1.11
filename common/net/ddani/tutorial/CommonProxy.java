@@ -15,6 +15,8 @@ public class CommonProxy {
 	}
 	public void Init (FMLInitializationEvent event){
 		
+		ModBlocks.initRecipes();
+		ModItems.initRecipes();
 	}
 	public void postInit(FMLPostInitializationEvent event){
 		

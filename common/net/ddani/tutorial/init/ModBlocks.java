@@ -25,6 +25,10 @@ public class ModBlocks {
 		GameRegistry.register(new ItemBlock(tutorialBlock), location);
 	}
 	
+	public static void initRecipes() {
+		tutorialBlock.addRecipes();
+	}
+	
 	@SideOnly(Side.CLIENT)
 	public static void initClient(ItemModelMesher mesher){
 		

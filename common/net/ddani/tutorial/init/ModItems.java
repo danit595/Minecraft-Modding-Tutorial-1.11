@@ -27,6 +27,10 @@ public class ModItems {
 		GameRegistry.register(steel_ingot);
 	}	
 	
+	public static void initRecipes() {
+		tutorialItem.addRecipes();
+	}
+	
 	@SideOnly(Side.CLIENT)
 	public static void initClient(ItemModelMesher mesher) {
 		
