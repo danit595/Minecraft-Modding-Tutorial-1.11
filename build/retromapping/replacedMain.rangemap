@@ -1,0 +1,449 @@
+Symbol range map extraction starting
+Processing 9 files
+startProcessing "net\ddani\tutorial\ClientProxy.java" md5: e6953db8714bdfdbca1ba67c306d5e28
+@|net\ddani\tutorial\ClientProxy.java|8|26|net.ddani.tutorial|package|net.ddani.tutorial|(file)
+Class Start: net.ddani.tutorial.ClientProxy
+   @|net\ddani\tutorial\ClientProxy.java|427|438|ClientProxy|class|net.ddani.tutorial.ClientProxy
+   @|net\ddani\tutorial\ClientProxy.java|447|458|CommonProxy|class|net.ddani.tutorial.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\ddani\tutorial\ClientProxy.java|520|525|event|param|net.ddani.tutorial.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net\ddani\tutorial\ClientProxy.java|464|472|Override|class|java.lang.Override
+      @|net\ddani\tutorial\ClientProxy.java|486|493|preInit|method|net.ddani.tutorial.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\ddani\tutorial\ClientProxy.java|494|519|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|net\ddani\tutorial\ClientProxy.java|540|547|preInit|method|net.ddani.tutorial.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\ddani\tutorial\ClientProxy.java|548|553|event|param|net.ddani.tutorial.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\ddani\tutorial\ClientProxy.java|611|616|event|param|net.ddani.tutorial.ClientProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\ddani\tutorial\ClientProxy.java|561|569|Override|class|java.lang.Override
+      @|net\ddani\tutorial\ClientProxy.java|583|587|Init|method|net.ddani.tutorial.CommonProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\ddani\tutorial\ClientProxy.java|588|610|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|net\ddani\tutorial\ClientProxy.java|631|635|Init|method|net.ddani.tutorial.CommonProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\ddani\tutorial\ClientProxy.java|636|641|event|param|net.ddani.tutorial.ClientProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\ddani\tutorial\ClientProxy.java|649|664|ItemModelMesher|class|net.minecraft.client.renderer.ItemModelMesher
+      @|net\ddani\tutorial\ClientProxy.java|674|683|Minecraft|class|net.minecraft.client.Minecraft
+      @|net\ddani\tutorial\ClientProxy.java|684|696|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|net\ddani\tutorial\ClientProxy.java|699|712|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|net\ddani\tutorial\ClientProxy.java|715|733|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|net\ddani\tutorial\ClientProxy.java|739|747|ModItems|class|net.ddani.tutorial.init.ModItems
+      @|net\ddani\tutorial\ClientProxy.java|748|758|initClient|method|net.ddani.tutorial.init.ModItems|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|net\ddani\tutorial\ClientProxy.java|770|779|ModBlocks|class|net.ddani.tutorial.init.ModBlocks
+      @|net\ddani\tutorial\ClientProxy.java|780|790|initClient|method|net.ddani.tutorial.init.ModBlocks|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+   Method End: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\ddani\tutorial\ClientProxy.java|863|868|event|param|net.ddani.tutorial.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|net\ddani\tutorial\ClientProxy.java|805|813|Override|class|java.lang.Override
+      @|net\ddani\tutorial\ClientProxy.java|827|835|postInit|method|net.ddani.tutorial.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\ddani\tutorial\ClientProxy.java|836|862|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|net\ddani\tutorial\ClientProxy.java|883|891|postInit|method|net.ddani.tutorial.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\ddani\tutorial\ClientProxy.java|892|897|event|param|net.ddani.tutorial.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : net.ddani.tutorial.ClientProxy
+endProcessing "net\ddani\tutorial\ClientProxy.java"
+
+startProcessing "net\ddani\tutorial\CommonProxy.java" md5: ada1dad1622f48e477f633dc9bfb31bb
+@|net\ddani\tutorial\CommonProxy.java|8|26|net.ddani.tutorial|package|net.ddani.tutorial|(file)
+Class Start: net.ddani.tutorial.CommonProxy
+   @|net\ddani\tutorial\CommonProxy.java|334|345|CommonProxy|class|net.ddani.tutorial.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\ddani\tutorial\CommonProxy.java|396|401|event|param|net.ddani.tutorial.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net\ddani\tutorial\CommonProxy.java|362|369|preInit|method|net.ddani.tutorial.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\ddani\tutorial\CommonProxy.java|370|395|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|net\ddani\tutorial\CommonProxy.java|409|417|ModItems|class|net.ddani.tutorial.init.ModItems
+      @|net\ddani\tutorial\CommonProxy.java|418|422|init|method|net.ddani.tutorial.init.ModItems|init|()V
+      @|net\ddani\tutorial\CommonProxy.java|428|437|ModBlocks|class|net.ddani.tutorial.init.ModBlocks
+      @|net\ddani\tutorial\CommonProxy.java|438|442|init|method|net.ddani.tutorial.init.ModBlocks|init|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\ddani\tutorial\CommonProxy.java|491|496|event|param|net.ddani.tutorial.CommonProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\ddani\tutorial\CommonProxy.java|462|466|Init|method|net.ddani.tutorial.CommonProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\ddani\tutorial\CommonProxy.java|468|490|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|net\ddani\tutorial\CommonProxy.java|504|513|ModBlocks|class|net.ddani.tutorial.init.ModBlocks
+      @|net\ddani\tutorial\CommonProxy.java|514|525|initRecipes|method|net.ddani.tutorial.init.ModBlocks|initRecipes|()V
+      @|net\ddani\tutorial\CommonProxy.java|531|539|ModItems|class|net.ddani.tutorial.init.ModItems
+      @|net\ddani\tutorial\CommonProxy.java|540|551|initRecipes|method|net.ddani.tutorial.init.ModItems|initRecipes|()V
+   Method End: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\ddani\tutorial\CommonProxy.java|607|612|event|param|net.ddani.tutorial.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|net\ddani\tutorial\CommonProxy.java|571|579|postInit|method|net.ddani.tutorial.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\ddani\tutorial\CommonProxy.java|580|606|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : net.ddani.tutorial.CommonProxy
+endProcessing "net\ddani\tutorial\CommonProxy.java"
+
+startProcessing "net\ddani\tutorial\Tutorial.java" md5: 485a7d65cc8b072e7264a5469cf56419
+@|net\ddani\tutorial\Tutorial.java|8|26|net.ddani.tutorial|package|net.ddani.tutorial|(file)
+Class Start: net.ddani.tutorial.Tutorial
+   @|net\ddani\tutorial\Tutorial.java|587|590|Mod|class|net.minecraftforge.fml.common.Mod
+   @|net\ddani\tutorial\Tutorial.java|591|596|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|net\ddani\tutorial\Tutorial.java|599|607|Tutorial|class|net.ddani.tutorial.Tutorial
+   @|net\ddani\tutorial\Tutorial.java|608|614|mod_id|field|net.ddani.tutorial.Tutorial|mod_id
+   @|net\ddani\tutorial\Tutorial.java|615|619|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|net\ddani\tutorial\Tutorial.java|622|630|Tutorial|class|net.ddani.tutorial.Tutorial
+   @|net\ddani\tutorial\Tutorial.java|631|639|mod_name|field|net.ddani.tutorial.Tutorial|mod_name
+   @|net\ddani\tutorial\Tutorial.java|640|647|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|net\ddani\tutorial\Tutorial.java|650|658|Tutorial|class|net.ddani.tutorial.Tutorial
+   @|net\ddani\tutorial\Tutorial.java|659|666|version|field|net.ddani.tutorial.Tutorial|version
+   @|net\ddani\tutorial\Tutorial.java|667|679|dependencies|method|net.minecraftforge.fml.common.Mod|dependencies|()Ljava/lang/String;
+   @|net\ddani\tutorial\Tutorial.java|682|690|Tutorial|class|net.ddani.tutorial.Tutorial
+   @|net\ddani\tutorial\Tutorial.java|691|703|dependencies|field|net.ddani.tutorial.Tutorial|dependencies
+   @|net\ddani\tutorial\Tutorial.java|718|726|Tutorial|class|net.ddani.tutorial.Tutorial
+   @|net\ddani\tutorial\Tutorial.java|750|756|String|class|java.lang.String
+   @|net\ddani\tutorial\Tutorial.java|750|756|String|class|java.lang.String
+   @|net\ddani\tutorial\Tutorial.java|761|767|mod_id|field|net.ddani.tutorial.Tutorial|mod_id|
+   @|net\ddani\tutorial\Tutorial.java|786|794|mod_name|field|net.ddani.tutorial.Tutorial|mod_name|
+   @|net\ddani\tutorial\Tutorial.java|822|829|version|field|net.ddani.tutorial.Tutorial|version|
+   @|net\ddani\tutorial\Tutorial.java|846|858|dependencies|field|net.ddani.tutorial.Tutorial|dependencies|
+   @|net\ddani\tutorial\Tutorial.java|902|917|resource_prefix|field|net.ddani.tutorial.Tutorial|resource_prefix|
+   @|net\ddani\tutorial\Tutorial.java|919|925|mod_id|field|net.ddani.tutorial.Tutorial|mod_id
+   @|net\ddani\tutorial\Tutorial.java|926|937|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+   @|net\ddani\tutorial\Tutorial.java|979|985|Random|class|java.util.Random
+   @|net\ddani\tutorial\Tutorial.java|979|985|Random|class|java.util.Random
+   @|net\ddani\tutorial\Tutorial.java|986|992|random|field|net.ddani.tutorial.Tutorial|random|
+   @|net\ddani\tutorial\Tutorial.java|999|1005|Random|class|java.util.Random
+   @|net\ddani\tutorial\Tutorial.java|1045|1053|Tutorial|class|net.ddani.tutorial.Tutorial
+   @|net\ddani\tutorial\Tutorial.java|1013|1021|Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|net\ddani\tutorial\Tutorial.java|1022|1028|mod_id|field|net.ddani.tutorial.Tutorial|mod_id
+   @|net\ddani\tutorial\Tutorial.java|1045|1053|Tutorial|class|net.ddani.tutorial.Tutorial
+   @|net\ddani\tutorial\Tutorial.java|1054|1062|instance|field|net.ddani.tutorial.Tutorial|instance|
+   @|net\ddani\tutorial\Tutorial.java|1188|1199|CommonProxy|class|net.ddani.tutorial.CommonProxy
+   @|net\ddani\tutorial\Tutorial.java|1068|1078|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|net\ddani\tutorial\Tutorial.java|1079|1089|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|net\ddani\tutorial\Tutorial.java|1126|1136|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|net\ddani\tutorial\Tutorial.java|1188|1199|CommonProxy|class|net.ddani.tutorial.CommonProxy
+   @|net\ddani\tutorial\Tutorial.java|1200|1205|proxy|field|net.ddani.tutorial.Tutorial|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\ddani\tutorial\Tutorial.java|1271|1276|event|param|net.ddani.tutorial.Tutorial|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net\ddani\tutorial\Tutorial.java|1211|1223|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|net\ddani\tutorial\Tutorial.java|1237|1244|preInit|method|net.ddani.tutorial.Tutorial|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\ddani\tutorial\Tutorial.java|1245|1270|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|net\ddani\tutorial\Tutorial.java|1281|1286|proxy|field|net.ddani.tutorial.Tutorial|proxy
+      @|net\ddani\tutorial\Tutorial.java|1287|1294|preInit|method|net.ddani.tutorial.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\ddani\tutorial\Tutorial.java|1295|1300|event|param|net.ddani.tutorial.Tutorial|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\ddani\tutorial\Tutorial.java|1362|1367|event|param|net.ddani.tutorial.Tutorial|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\ddani\tutorial\Tutorial.java|1308|1320|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|net\ddani\tutorial\Tutorial.java|1334|1338|init|method|net.ddani.tutorial.Tutorial|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\ddani\tutorial\Tutorial.java|1339|1361|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|net\ddani\tutorial\Tutorial.java|1372|1377|proxy|field|net.ddani.tutorial.Tutorial|proxy
+      @|net\ddani\tutorial\Tutorial.java|1378|1382|Init|method|net.ddani.tutorial.CommonProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\ddani\tutorial\Tutorial.java|1383|1388|event|param|net.ddani.tutorial.Tutorial|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\ddani\tutorial\Tutorial.java|1458|1463|event|param|net.ddani.tutorial.Tutorial|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|net\ddani\tutorial\Tutorial.java|1396|1408|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|net\ddani\tutorial\Tutorial.java|1422|1430|postInit|method|net.ddani.tutorial.Tutorial|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\ddani\tutorial\Tutorial.java|1431|1457|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|net\ddani\tutorial\Tutorial.java|1468|1473|proxy|field|net.ddani.tutorial.Tutorial|proxy
+      @|net\ddani\tutorial\Tutorial.java|1474|1482|postInit|method|net.ddani.tutorial.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\ddani\tutorial\Tutorial.java|1483|1488|event|param|net.ddani.tutorial.Tutorial|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   @|net\ddani\tutorial\Tutorial.java|1511|1523|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|net\ddani\tutorial\Tutorial.java|1511|1523|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|net\ddani\tutorial\Tutorial.java|1524|1535|tabTutorial|field|net.ddani.tutorial.Tutorial|tabTutorial|
+   @|net\ddani\tutorial\Tutorial.java|1542|1554|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   Anon Class Start: net.ddani.tutorial.Tutorial$1
+      Method Start: getTabIconItem()Lnet/minecraft/item/ItemStack;
+         @|net\ddani\tutorial\Tutorial.java|1579|1587|Override|class|java.lang.Override
+         @|net\ddani\tutorial\Tutorial.java|1597|1606|ItemStack|class|net.minecraft.item.ItemStack
+         @|net\ddani\tutorial\Tutorial.java|1607|1621|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/ItemStack;
+         @|net\ddani\tutorial\Tutorial.java|1640|1649|ItemStack|class|net.minecraft.item.ItemStack
+         @|net\ddani\tutorial\Tutorial.java|1650|1658|ModItems|class|net.ddani.tutorial.init.ModItems
+         @|net\ddani\tutorial\Tutorial.java|1659|1671|tutorialItem|field|net.ddani.tutorial.init.ModItems|tutorialItem
+      Method End: getTabIconItem()Lnet/minecraft/item/ItemStack;
+   Anon Class End: net.ddani.tutorial.Tutorial$1
+Class End  : net.ddani.tutorial.Tutorial
+endProcessing "net\ddani\tutorial\Tutorial.java"
+
+startProcessing "net\ddani\tutorial\block\BlockTutorial.java" md5: 195d83d0064be285322a3992c67f0bdf
+@|net\ddani\tutorial\block\BlockTutorial.java|8|32|net.ddani.tutorial.block|package|net.ddani.tutorial.block|(file)
+Class Start: net.ddani.tutorial.block.BlockTutorial
+   @|net\ddani\tutorial\block\BlockTutorial.java|471|484|BlockTutorial|class|net.ddani.tutorial.block.BlockTutorial
+   @|net\ddani\tutorial\block\BlockTutorial.java|493|498|Block|class|net.minecraft.block.Block
+   Method Start: BlockTutorial()V
+      @|net\ddani\tutorial\block\BlockTutorial.java|510|523|BlockTutorial|method|net.ddani.tutorial.block.BlockTutorial|BlockTutorial|()V
+      @|net\ddani\tutorial\block\BlockTutorial.java|536|544|Material|class|net.minecraft.block.material.Material
+      @|net\ddani\tutorial\block\BlockTutorial.java|545|549|IRON|field|net.minecraft.block.material.Material|IRON
+      @|net\ddani\tutorial\block\BlockTutorial.java|554|565|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|net\ddani\tutorial\block\BlockTutorial.java|575|590|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|net\ddani\tutorial\block\BlockTutorial.java|608|620|setSoundType|method|net.minecraft.block.Block|setSoundType|(Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;
+      @|net\ddani\tutorial\block\BlockTutorial.java|621|630|SoundType|class|net.minecraft.block.SoundType
+      @|net\ddani\tutorial\block\BlockTutorial.java|631|636|METAL|field|net.minecraft.block.SoundType|METAL
+      @|net\ddani\tutorial\block\BlockTutorial.java|641|654|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|net\ddani\tutorial\block\BlockTutorial.java|665|679|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|net\ddani\tutorial\block\BlockTutorial.java|680|688|Tutorial|class|net.ddani.tutorial.Tutorial
+      @|net\ddani\tutorial\block\BlockTutorial.java|689|700|tabTutorial|field|net.ddani.tutorial.Tutorial|tabTutorial
+   Method End: BlockTutorial()V
+   Method Start: addRecipes()V
+      @|net\ddani\tutorial\block\BlockTutorial.java|719|729|addRecipes|method|net.ddani.tutorial.block.BlockTutorial|addRecipes|()V
+      @|net\ddani\tutorial\block\BlockTutorial.java|736|748|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\ddani\tutorial\block\BlockTutorial.java|749|764|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|net\ddani\tutorial\block\BlockTutorial.java|769|778|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\ddani\tutorial\block\BlockTutorial.java|812|818|Blocks|class|net.minecraft.init.Blocks
+      @|net\ddani\tutorial\block\BlockTutorial.java|819|825|LADDER|field|net.minecraft.init.Blocks|LADDER
+      @|net\ddani\tutorial\block\BlockTutorial.java|835|844|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\ddani\tutorial\block\BlockTutorial.java|845|851|Blocks|class|net.minecraft.init.Blocks
+      @|net\ddani\tutorial\block\BlockTutorial.java|852|856|WOOL|field|net.minecraft.init.Blocks|WOOL
+      @|net\ddani\tutorial\block\BlockTutorial.java|860|873|OreDictionary|class|net.minecraftforge.oredict.OreDictionary
+      @|net\ddani\tutorial\block\BlockTutorial.java|874|888|WILDCARD_VALUE|field|net.minecraftforge.oredict.OreDictionary|WILDCARD_VALUE
+      @|net\ddani\tutorial\block\BlockTutorial.java|895|907|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\ddani\tutorial\block\BlockTutorial.java|908|917|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/crafting/IRecipe;)V
+      @|net\ddani\tutorial\block\BlockTutorial.java|922|937|ShapedOreRecipe|class|net.minecraftforge.oredict.ShapedOreRecipe
+      @|net\ddani\tutorial\block\BlockTutorial.java|942|951|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\ddani\tutorial\block\BlockTutorial.java|982|988|Blocks|class|net.minecraft.init.Blocks
+      @|net\ddani\tutorial\block\BlockTutorial.java|989|995|LADDER|field|net.minecraft.init.Blocks|LADDER
+      @|net\ddani\tutorial\block\BlockTutorial.java|1002|1008|Blocks|class|net.minecraft.init.Blocks
+      @|net\ddani\tutorial\block\BlockTutorial.java|1009|1013|WOOL|field|net.minecraft.init.Blocks|WOOL
+   Method End: addRecipes()V
+   Method Start: getUnlocalizedName()Ljava/lang/String;
+      @|net\ddani\tutorial\block\BlockTutorial.java|1040|1048|Override|class|java.lang.Override
+      @|net\ddani\tutorial\block\BlockTutorial.java|1057|1063|String|class|java.lang.String
+      @|net\ddani\tutorial\block\BlockTutorial.java|1064|1082|getUnlocalizedName|method|net.minecraft.block.Block|getUnlocalizedName|()Ljava/lang/String;
+      @|net\ddani\tutorial\block\BlockTutorial.java|1106|1114|Tutorial|class|net.ddani.tutorial.Tutorial
+      @|net\ddani\tutorial\block\BlockTutorial.java|1115|1130|resource_prefix|field|net.ddani.tutorial.Tutorial|resource_prefix
+      @|net\ddani\tutorial\block\BlockTutorial.java|1133|1138|Names|class|net.ddani.tutorial.lib.Names
+      @|net\ddani\tutorial\block\BlockTutorial.java|1139|1153|tutorial_block|field|net.ddani.tutorial.lib.Names|tutorial_block
+   Method End: getUnlocalizedName()Ljava/lang/String;
+Class End  : net.ddani.tutorial.block.BlockTutorial
+endProcessing "net\ddani\tutorial\block\BlockTutorial.java"
+
+startProcessing "net\ddani\tutorial\init\ModBlocks.java" md5: 354a890f2678e3c6973065eed03c42dd
+@|net\ddani\tutorial\init\ModBlocks.java|8|31|net.ddani.tutorial.init|package|net.ddani.tutorial.init|(file)
+Class Start: net.ddani.tutorial.init.ModBlocks
+   @|net\ddani\tutorial\init\ModBlocks.java|617|626|ModBlocks|class|net.ddani.tutorial.init.ModBlocks
+   @|net\ddani\tutorial\init\ModBlocks.java|645|658|BlockTutorial|class|net.ddani.tutorial.block.BlockTutorial
+   @|net\ddani\tutorial\init\ModBlocks.java|645|658|BlockTutorial|class|net.ddani.tutorial.block.BlockTutorial
+   @|net\ddani\tutorial\init\ModBlocks.java|659|672|tutorialBlock|field|net.ddani.tutorial.init.ModBlocks|tutorialBlock|
+   Method Start: init()V
+      @|net\ddani\tutorial\init\ModBlocks.java|696|700|init|method|net.ddani.tutorial.init.ModBlocks|init|()V
+      @|net\ddani\tutorial\init\ModBlocks.java|706|722|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|net\ddani\tutorial\init\ModBlocks.java|738|754|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|net\ddani\tutorial\init\ModBlocks.java|755|763|Tutorial|class|net.ddani.tutorial.Tutorial
+      @|net\ddani\tutorial\init\ModBlocks.java|764|770|mod_id|field|net.ddani.tutorial.Tutorial|mod_id
+      @|net\ddani\tutorial\init\ModBlocks.java|771|776|Names|class|net.ddani.tutorial.lib.Names
+      @|net\ddani\tutorial\init\ModBlocks.java|777|791|tutorial_block|field|net.ddani.tutorial.lib.Names|tutorial_block
+      @|net\ddani\tutorial\init\ModBlocks.java|796|809|tutorialBlock|field|net.ddani.tutorial.init.ModBlocks|tutorialBlock
+      @|net\ddani\tutorial\init\ModBlocks.java|816|829|BlockTutorial|class|net.ddani.tutorial.block.BlockTutorial
+      @|net\ddani\tutorial\init\ModBlocks.java|835|848|tutorialBlock|field|net.ddani.tutorial.init.ModBlocks|tutorialBlock
+      @|net\ddani\tutorial\init\ModBlocks.java|849|864|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|net\ddani\tutorial\init\ModBlocks.java|878|890|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\ddani\tutorial\init\ModBlocks.java|891|899|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\ddani\tutorial\init\ModBlocks.java|900|913|tutorialBlock|field|net.ddani.tutorial.init.ModBlocks|tutorialBlock
+      @|net\ddani\tutorial\init\ModBlocks.java|918|930|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\ddani\tutorial\init\ModBlocks.java|931|939|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;Lnet/minecraft/util/ResourceLocation;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\ddani\tutorial\init\ModBlocks.java|944|953|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|net\ddani\tutorial\init\ModBlocks.java|954|967|tutorialBlock|field|net.ddani.tutorial.init.ModBlocks|tutorialBlock
+   Method End: init()V
+   Method Start: initRecipes()V
+      @|net\ddani\tutorial\init\ModBlocks.java|1006|1017|initRecipes|method|net.ddani.tutorial.init.ModBlocks|initRecipes|()V
+      @|net\ddani\tutorial\init\ModBlocks.java|1024|1037|tutorialBlock|field|net.ddani.tutorial.init.ModBlocks|tutorialBlock
+      @|net\ddani\tutorial\init\ModBlocks.java|1038|1048|addRecipes|method|net.ddani.tutorial.block.BlockTutorial|addRecipes|()V
+   Method End: initRecipes()V
+   Method Start: initClient(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|net\ddani\tutorial\init\ModBlocks.java|1128|1134|mesher|param|net.ddani.tutorial.init.ModBlocks|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V|mesher|0
+      @|net\ddani\tutorial\init\ModBlocks.java|1059|1067|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|net\ddani\tutorial\init\ModBlocks.java|1068|1072|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|net\ddani\tutorial\init\ModBlocks.java|1073|1079|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net\ddani\tutorial\init\ModBlocks.java|1101|1111|initClient|method|net.ddani.tutorial.init.ModBlocks|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|net\ddani\tutorial\init\ModBlocks.java|1112|1127|ItemModelMesher|class|net.minecraft.client.renderer.ItemModelMesher
+      @|net\ddani\tutorial\init\ModBlocks.java|1142|1146|Item|class|net.minecraft.item.Item
+      @|net\ddani\tutorial\init\ModBlocks.java|1154|1158|Item|class|net.minecraft.item.Item
+      @|net\ddani\tutorial\init\ModBlocks.java|1159|1175|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|net\ddani\tutorial\init\ModBlocks.java|1176|1189|tutorialBlock|field|net.ddani.tutorial.init.ModBlocks|tutorialBlock
+      @|net\ddani\tutorial\init\ModBlocks.java|1194|1215|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|net\ddani\tutorial\init\ModBlocks.java|1228|1249|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|net\ddani\tutorial\init\ModBlocks.java|1250|1258|Tutorial|class|net.ddani.tutorial.Tutorial
+      @|net\ddani\tutorial\init\ModBlocks.java|1259|1274|resource_prefix|field|net.ddani.tutorial.Tutorial|resource_prefix
+      @|net\ddani\tutorial\init\ModBlocks.java|1277|1282|Names|class|net.ddani.tutorial.lib.Names
+      @|net\ddani\tutorial\init\ModBlocks.java|1283|1297|tutorial_block|field|net.ddani.tutorial.lib.Names|tutorial_block
+      @|net\ddani\tutorial\init\ModBlocks.java|1316|1327|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|net\ddani\tutorial\init\ModBlocks.java|1328|1348|registerItemVariants|method|net.minecraft.client.renderer.block.model.ModelBakery|registerItemVariants|(Lnet/minecraft/item/Item;[Lnet/minecraft/util/ResourceLocation;)V
+      @|net\ddani\tutorial\init\ModBlocks.java|1365|1371|mesher|param|net.ddani.tutorial.init.ModBlocks|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V|mesher|0
+      @|net\ddani\tutorial\init\ModBlocks.java|1372|1380|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+   Method End: initClient(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+Class End  : net.ddani.tutorial.init.ModBlocks
+endProcessing "net\ddani\tutorial\init\ModBlocks.java"
+
+startProcessing "net\ddani\tutorial\init\ModItems.java" md5: f961f021a152ac64f9b6271e257f5854
+@|net\ddani\tutorial\init\ModItems.java|8|31|net.ddani.tutorial.init|package|net.ddani.tutorial.init|(file)
+Class Start: net.ddani.tutorial.init.ModItems
+   @|net\ddani\tutorial\init\ModItems.java|589|597|ModItems|class|net.ddani.tutorial.init.ModItems
+   @|net\ddani\tutorial\init\ModItems.java|616|628|ItemTutorial|class|net.ddani.tutorial.item.ItemTutorial
+   @|net\ddani\tutorial\init\ModItems.java|616|628|ItemTutorial|class|net.ddani.tutorial.item.ItemTutorial
+   @|net\ddani\tutorial\init\ModItems.java|629|641|tutorialItem|field|net.ddani.tutorial.init.ModItems|tutorialItem|
+   @|net\ddani\tutorial\init\ModItems.java|658|668|SteelIngot|class|net.ddani.tutorial.item.SteelIngot
+   @|net\ddani\tutorial\init\ModItems.java|658|668|SteelIngot|class|net.ddani.tutorial.item.SteelIngot
+   @|net\ddani\tutorial\init\ModItems.java|669|680|steel_ingot|field|net.ddani.tutorial.init.ModItems|steel_ingot|
+   Method Start: init()V
+      @|net\ddani\tutorial\init\ModItems.java|702|706|init|method|net.ddani.tutorial.init.ModItems|init|()V
+      @|net\ddani\tutorial\init\ModItems.java|716|728|tutorialItem|field|net.ddani.tutorial.init.ModItems|tutorialItem
+      @|net\ddani\tutorial\init\ModItems.java|735|747|ItemTutorial|class|net.ddani.tutorial.item.ItemTutorial
+      @|net\ddani\tutorial\init\ModItems.java|753|765|tutorialItem|field|net.ddani.tutorial.init.ModItems|tutorialItem
+      @|net\ddani\tutorial\init\ModItems.java|766|781|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|net\ddani\tutorial\init\ModItems.java|786|802|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|net\ddani\tutorial\init\ModItems.java|803|811|Tutorial|class|net.ddani.tutorial.Tutorial
+      @|net\ddani\tutorial\init\ModItems.java|812|818|mod_id|field|net.ddani.tutorial.Tutorial|mod_id
+      @|net\ddani\tutorial\init\ModItems.java|819|824|Names|class|net.ddani.tutorial.lib.Names
+      @|net\ddani\tutorial\init\ModItems.java|825|838|tutorial_item|field|net.ddani.tutorial.lib.Names|tutorial_item
+      @|net\ddani\tutorial\init\ModItems.java|844|856|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\ddani\tutorial\init\ModItems.java|857|865|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\ddani\tutorial\init\ModItems.java|866|878|tutorialItem|field|net.ddani.tutorial.init.ModItems|tutorialItem
+      @|net\ddani\tutorial\init\ModItems.java|886|897|steel_ingot|field|net.ddani.tutorial.init.ModItems|steel_ingot
+      @|net\ddani\tutorial\init\ModItems.java|904|914|SteelIngot|class|net.ddani.tutorial.item.SteelIngot
+      @|net\ddani\tutorial\init\ModItems.java|920|931|steel_ingot|field|net.ddani.tutorial.init.ModItems|steel_ingot
+      @|net\ddani\tutorial\init\ModItems.java|932|947|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|net\ddani\tutorial\init\ModItems.java|952|968|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|net\ddani\tutorial\init\ModItems.java|969|977|Tutorial|class|net.ddani.tutorial.Tutorial
+      @|net\ddani\tutorial\init\ModItems.java|978|984|mod_id|field|net.ddani.tutorial.Tutorial|mod_id
+      @|net\ddani\tutorial\init\ModItems.java|985|990|Names|class|net.ddani.tutorial.lib.Names
+      @|net\ddani\tutorial\init\ModItems.java|991|1002|steel_ingot|field|net.ddani.tutorial.lib.Names|steel_ingot
+      @|net\ddani\tutorial\init\ModItems.java|1008|1020|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\ddani\tutorial\init\ModItems.java|1021|1029|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\ddani\tutorial\init\ModItems.java|1030|1041|steel_ingot|field|net.ddani.tutorial.init.ModItems|steel_ingot
+   Method End: init()V
+   Method Start: initRecipes()V
+      @|net\ddani\tutorial\init\ModItems.java|1070|1081|initRecipes|method|net.ddani.tutorial.init.ModItems|initRecipes|()V
+      @|net\ddani\tutorial\init\ModItems.java|1088|1100|tutorialItem|field|net.ddani.tutorial.init.ModItems|tutorialItem
+      @|net\ddani\tutorial\init\ModItems.java|1101|1111|addRecipes|method|net.ddani.tutorial.item.ItemTutorial|addRecipes|()V
+   Method End: initRecipes()V
+   Method Start: initClient(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|net\ddani\tutorial\init\ModItems.java|1191|1197|mesher|param|net.ddani.tutorial.init.ModItems|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V|mesher|0
+      @|net\ddani\tutorial\init\ModItems.java|1122|1130|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|net\ddani\tutorial\init\ModItems.java|1131|1135|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|net\ddani\tutorial\init\ModItems.java|1136|1142|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net\ddani\tutorial\init\ModItems.java|1164|1174|initClient|method|net.ddani.tutorial.init.ModItems|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|net\ddani\tutorial\init\ModItems.java|1175|1190|ItemModelMesher|class|net.minecraft.client.renderer.ItemModelMesher
+      @|net\ddani\tutorial\init\ModItems.java|1206|1227|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|net\ddani\tutorial\init\ModItems.java|1240|1261|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|net\ddani\tutorial\init\ModItems.java|1262|1270|Tutorial|class|net.ddani.tutorial.Tutorial
+      @|net\ddani\tutorial\init\ModItems.java|1271|1286|resource_prefix|field|net.ddani.tutorial.Tutorial|resource_prefix
+      @|net\ddani\tutorial\init\ModItems.java|1289|1294|Names|class|net.ddani.tutorial.lib.Names
+      @|net\ddani\tutorial\init\ModItems.java|1295|1308|tutorial_item|field|net.ddani.tutorial.lib.Names|tutorial_item
+      @|net\ddani\tutorial\init\ModItems.java|1327|1338|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|net\ddani\tutorial\init\ModItems.java|1339|1359|registerItemVariants|method|net.minecraft.client.renderer.block.model.ModelBakery|registerItemVariants|(Lnet/minecraft/item/Item;[Lnet/minecraft/util/ResourceLocation;)V
+      @|net\ddani\tutorial\init\ModItems.java|1360|1372|tutorialItem|field|net.ddani.tutorial.init.ModItems|tutorialItem
+      @|net\ddani\tutorial\init\ModItems.java|1384|1390|mesher|param|net.ddani.tutorial.init.ModItems|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V|mesher|0
+      @|net\ddani\tutorial\init\ModItems.java|1391|1399|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net\ddani\tutorial\init\ModItems.java|1400|1412|tutorialItem|field|net.ddani.tutorial.init.ModItems|tutorialItem
+      @|net\ddani\tutorial\init\ModItems.java|1431|1452|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|net\ddani\tutorial\init\ModItems.java|1471|1492|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|net\ddani\tutorial\init\ModItems.java|1493|1501|Tutorial|class|net.ddani.tutorial.Tutorial
+      @|net\ddani\tutorial\init\ModItems.java|1502|1517|resource_prefix|field|net.ddani.tutorial.Tutorial|resource_prefix
+      @|net\ddani\tutorial\init\ModItems.java|1520|1525|Names|class|net.ddani.tutorial.lib.Names
+      @|net\ddani\tutorial\init\ModItems.java|1526|1537|steel_ingot|field|net.ddani.tutorial.lib.Names|steel_ingot
+      @|net\ddani\tutorial\init\ModItems.java|1556|1567|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|net\ddani\tutorial\init\ModItems.java|1568|1588|registerItemVariants|method|net.minecraft.client.renderer.block.model.ModelBakery|registerItemVariants|(Lnet/minecraft/item/Item;[Lnet/minecraft/util/ResourceLocation;)V
+      @|net\ddani\tutorial\init\ModItems.java|1589|1600|steel_ingot|field|net.ddani.tutorial.init.ModItems|steel_ingot
+      @|net\ddani\tutorial\init\ModItems.java|1618|1624|mesher|param|net.ddani.tutorial.init.ModItems|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V|mesher|0
+      @|net\ddani\tutorial\init\ModItems.java|1625|1633|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net\ddani\tutorial\init\ModItems.java|1634|1645|steel_ingot|field|net.ddani.tutorial.init.ModItems|steel_ingot
+   Method End: initClient(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+Class End  : net.ddani.tutorial.init.ModItems
+endProcessing "net\ddani\tutorial\init\ModItems.java"
+
+startProcessing "net\ddani\tutorial\item\ItemTutorial.java" md5: 8ff516a2a946b0745fb5920963e70eda
+@|net\ddani\tutorial\item\ItemTutorial.java|8|31|net.ddani.tutorial.item|package|net.ddani.tutorial.item|(file)
+Class Start: net.ddani.tutorial.item.ItemTutorial
+   @|net\ddani\tutorial\item\ItemTutorial.java|528|540|ItemTutorial|class|net.ddani.tutorial.item.ItemTutorial
+   @|net\ddani\tutorial\item\ItemTutorial.java|549|553|Item|class|net.minecraft.item.Item
+   Method Start: ItemTutorial()V
+      @|net\ddani\tutorial\item\ItemTutorial.java|566|578|ItemTutorial|method|net.ddani.tutorial.item.ItemTutorial|ItemTutorial|()V
+      @|net\ddani\tutorial\item\ItemTutorial.java|585|600|setMaxStackSize|method|net.minecraft.item.Item|setMaxStackSize|(I)Lnet/minecraft/item/Item;
+      @|net\ddani\tutorial\item\ItemTutorial.java|608|622|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|net\ddani\tutorial\item\ItemTutorial.java|623|631|Tutorial|class|net.ddani.tutorial.Tutorial
+      @|net\ddani\tutorial\item\ItemTutorial.java|632|643|tabTutorial|field|net.ddani.tutorial.Tutorial|tabTutorial
+   Method End: ItemTutorial()V
+   Method Start: onItemRightClick(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+      @|net\ddani\tutorial\item\ItemTutorial.java|716|723|worldIn|param|net.ddani.tutorial.item.ItemTutorial|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|net\ddani\tutorial\item\ItemTutorial.java|738|746|playerIn|param|net.ddani.tutorial.item.ItemTutorial|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|net\ddani\tutorial\item\ItemTutorial.java|757|763|handIn|param|net.ddani.tutorial.item.ItemTutorial|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|handIn|2
+      @|net\ddani\tutorial\item\ItemTutorial.java|651|659|Override|class|java.lang.Override
+      @|net\ddani\tutorial\item\ItemTutorial.java|669|681|ActionResult|class|net.minecraft.util.ActionResult
+      @|net\ddani\tutorial\item\ItemTutorial.java|682|691|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\ddani\tutorial\item\ItemTutorial.java|693|709|onItemRightClick|method|net.minecraft.item.Item|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+      @|net\ddani\tutorial\item\ItemTutorial.java|710|715|World|class|net.minecraft.world.World
+      @|net\ddani\tutorial\item\ItemTutorial.java|725|737|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|net\ddani\tutorial\item\ItemTutorial.java|748|756|EnumHand|class|net.minecraft.util.EnumHand
+      @|net\ddani\tutorial\item\ItemTutorial.java|776|783|worldIn|param|net.ddani.tutorial.item.ItemTutorial|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|net\ddani\tutorial\item\ItemTutorial.java|784|792|isRemote|field|net.minecraft.world.World|isRemote
+      @|net\ddani\tutorial\item\ItemTutorial.java|797|805|playerIn|param|net.ddani.tutorial.item.ItemTutorial|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|net\ddani\tutorial\item\ItemTutorial.java|806|817|sendMessage|method|net.minecraft.command.ICommandSender|sendMessage|(Lnet/minecraft/util/text/ITextComponent;)V
+      @|net\ddani\tutorial\item\ItemTutorial.java|822|841|TextComponentString|class|net.minecraft.util.text.TextComponentString
+      @|net\ddani\tutorial\item\ItemTutorial.java|883|899|onItemRightClick|method|net.minecraft.item.Item|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+      @|net\ddani\tutorial\item\ItemTutorial.java|900|907|worldIn|param|net.ddani.tutorial.item.ItemTutorial|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|net\ddani\tutorial\item\ItemTutorial.java|909|917|playerIn|param|net.ddani.tutorial.item.ItemTutorial|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|net\ddani\tutorial\item\ItemTutorial.java|919|925|handIn|param|net.ddani.tutorial.item.ItemTutorial|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|handIn|2
+   Method End: onItemRightClick(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+   Method Start: addRecipes()V
+      @|net\ddani\tutorial\item\ItemTutorial.java|947|957|addRecipes|method|net.ddani.tutorial.item.ItemTutorial|addRecipes|()V
+      @|net\ddani\tutorial\item\ItemTutorial.java|964|976|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\ddani\tutorial\item\ItemTutorial.java|977|995|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|net\ddani\tutorial\item\ItemTutorial.java|1000|1009|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\ddani\tutorial\item\ItemTutorial.java|1017|1022|Items|class|net.minecraft.init.Items
+      @|net\ddani\tutorial\item\ItemTutorial.java|1023|1027|BONE|field|net.minecraft.init.Items|BONE
+      @|net\ddani\tutorial\item\ItemTutorial.java|1029|1034|Items|class|net.minecraft.init.Items
+      @|net\ddani\tutorial\item\ItemTutorial.java|1035|1039|BONE|field|net.minecraft.init.Items|BONE
+      @|net\ddani\tutorial\item\ItemTutorial.java|1045|1054|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\ddani\tutorial\item\ItemTutorial.java|1055|1061|Blocks|class|net.minecraft.init.Blocks
+      @|net\ddani\tutorial\item\ItemTutorial.java|1062|1065|LOG|field|net.minecraft.init.Blocks|LOG
+   Method End: addRecipes()V
+   Method Start: getUnlocalizedName(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|net\ddani\tutorial\item\ItemTutorial.java|1134|1139|stack|param|net.ddani.tutorial.item.ItemTutorial|getUnlocalizedName|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;|stack|0
+      @|net\ddani\tutorial\item\ItemTutorial.java|1081|1089|Override|class|java.lang.Override
+      @|net\ddani\tutorial\item\ItemTutorial.java|1098|1104|String|class|java.lang.String
+      @|net\ddani\tutorial\item\ItemTutorial.java|1105|1123|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|net\ddani\tutorial\item\ItemTutorial.java|1124|1133|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\ddani\tutorial\item\ItemTutorial.java|1162|1170|Tutorial|class|net.ddani.tutorial.Tutorial
+      @|net\ddani\tutorial\item\ItemTutorial.java|1171|1186|resource_prefix|field|net.ddani.tutorial.Tutorial|resource_prefix
+      @|net\ddani\tutorial\item\ItemTutorial.java|1189|1194|Names|class|net.ddani.tutorial.lib.Names
+      @|net\ddani\tutorial\item\ItemTutorial.java|1195|1208|tutorial_item|field|net.ddani.tutorial.lib.Names|tutorial_item
+   Method End: getUnlocalizedName(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+Class End  : net.ddani.tutorial.item.ItemTutorial
+endProcessing "net\ddani\tutorial\item\ItemTutorial.java"
+
+startProcessing "net\ddani\tutorial\item\SteelIngot.java" md5: 6e4e60b7392ba391e3cfd25f577124e4
+@|net\ddani\tutorial\item\SteelIngot.java|8|31|net.ddani.tutorial.item|package|net.ddani.tutorial.item|(file)
+Class Start: net.ddani.tutorial.item.SteelIngot
+   @|net\ddani\tutorial\item\SteelIngot.java|565|575|SteelIngot|class|net.ddani.tutorial.item.SteelIngot
+   @|net\ddani\tutorial\item\SteelIngot.java|584|588|Item|class|net.minecraft.item.Item
+   Method Start: SteelIngot()V
+      @|net\ddani\tutorial\item\SteelIngot.java|600|610|SteelIngot|method|net.ddani.tutorial.item.SteelIngot|SteelIngot|()V
+      @|net\ddani\tutorial\item\SteelIngot.java|617|632|setMaxStackSize|method|net.minecraft.item.Item|setMaxStackSize|(I)Lnet/minecraft/item/Item;
+      @|net\ddani\tutorial\item\SteelIngot.java|640|654|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|net\ddani\tutorial\item\SteelIngot.java|655|663|Tutorial|class|net.ddani.tutorial.Tutorial
+      @|net\ddani\tutorial\item\SteelIngot.java|664|675|tabTutorial|field|net.ddani.tutorial.Tutorial|tabTutorial
+   Method End: SteelIngot()V
+   Method Start: addRecipes()V
+      @|net\ddani\tutorial\item\SteelIngot.java|696|706|addRecipes|method|net.ddani.tutorial.item.SteelIngot|addRecipes|()V
+   Method End: addRecipes()V
+   Method Start: getUnlocalizedName(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|net\ddani\tutorial\item\SteelIngot.java|829|834|stack|param|net.ddani.tutorial.item.SteelIngot|getUnlocalizedName|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;|stack|0
+      @|net\ddani\tutorial\item\SteelIngot.java|776|784|Override|class|java.lang.Override
+      @|net\ddani\tutorial\item\SteelIngot.java|793|799|String|class|java.lang.String
+      @|net\ddani\tutorial\item\SteelIngot.java|800|818|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|net\ddani\tutorial\item\SteelIngot.java|819|828|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\ddani\tutorial\item\SteelIngot.java|857|865|Tutorial|class|net.ddani.tutorial.Tutorial
+      @|net\ddani\tutorial\item\SteelIngot.java|866|881|resource_prefix|field|net.ddani.tutorial.Tutorial|resource_prefix
+      @|net\ddani\tutorial\item\SteelIngot.java|884|889|Names|class|net.ddani.tutorial.lib.Names
+      @|net\ddani\tutorial\item\SteelIngot.java|890|901|steel_ingot|field|net.ddani.tutorial.lib.Names|steel_ingot
+   Method End: getUnlocalizedName(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+Class End  : net.ddani.tutorial.item.SteelIngot
+endProcessing "net\ddani\tutorial\item\SteelIngot.java"
+
+startProcessing "net\ddani\tutorial\lib\Names.java" md5: 9e6531098cc89508bffe24386522762c
+@|net\ddani\tutorial\lib\Names.java|8|30|net.ddani.tutorial.lib|package|net.ddani.tutorial.lib|(file)
+Class Start: net.ddani.tutorial.lib.Names
+   @|net\ddani\tutorial\lib\Names.java|47|52|Names|class|net.ddani.tutorial.lib.Names
+   @|net\ddani\tutorial\lib\Names.java|77|83|String|class|java.lang.String
+   @|net\ddani\tutorial\lib\Names.java|77|83|String|class|java.lang.String
+   @|net\ddani\tutorial\lib\Names.java|84|97|tutorial_item|field|net.ddani.tutorial.lib.Names|tutorial_item|
+   @|net\ddani\tutorial\lib\Names.java|137|143|String|class|java.lang.String
+   @|net\ddani\tutorial\lib\Names.java|137|143|String|class|java.lang.String
+   @|net\ddani\tutorial\lib\Names.java|144|158|tutorial_block|field|net.ddani.tutorial.lib.Names|tutorial_block|
+   @|net\ddani\tutorial\lib\Names.java|198|204|String|class|java.lang.String
+   @|net\ddani\tutorial\lib\Names.java|198|204|String|class|java.lang.String
+   @|net\ddani\tutorial\lib\Names.java|205|216|steel_ingot|field|net.ddani.tutorial.lib.Names|steel_ingot|
+Class End  : net.ddani.tutorial.lib.Names
+endProcessing "net\ddani\tutorial\lib\Names.java"
+

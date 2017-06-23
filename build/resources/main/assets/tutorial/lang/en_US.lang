@@ -1,0 +1,7 @@
+#Items
+item.tutorial:tutorial_item.name=Tutorial Item
+item.tutorial:steel_ingot.name=Steel Ingot
+#Blocks
+tile.tutorial:tutorial_block.name=Tutorial Block
+#CreativeTabs
+itemGroup.tab_tutorial=Tutorial Mod

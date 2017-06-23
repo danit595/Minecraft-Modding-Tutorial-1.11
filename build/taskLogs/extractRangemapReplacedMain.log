@@ -1,0 +1,29 @@
+Symbol range map extraction starting
+Processing 9 files
+startProcessing "net\ddani\tutorial\ClientProxy.java" md5: e6953db8714bdfdbca1ba67c306d5e28
+endProcessing "net\ddani\tutorial\ClientProxy.java"
+
+startProcessing "net\ddani\tutorial\CommonProxy.java" md5: ada1dad1622f48e477f633dc9bfb31bb
+endProcessing "net\ddani\tutorial\CommonProxy.java"
+
+startProcessing "net\ddani\tutorial\Tutorial.java" md5: 485a7d65cc8b072e7264a5469cf56419
+endProcessing "net\ddani\tutorial\Tutorial.java"
+
+startProcessing "net\ddani\tutorial\block\BlockTutorial.java" md5: 195d83d0064be285322a3992c67f0bdf
+endProcessing "net\ddani\tutorial\block\BlockTutorial.java"
+
+startProcessing "net\ddani\tutorial\init\ModBlocks.java" md5: 354a890f2678e3c6973065eed03c42dd
+endProcessing "net\ddani\tutorial\init\ModBlocks.java"
+
+startProcessing "net\ddani\tutorial\init\ModItems.java" md5: f961f021a152ac64f9b6271e257f5854
+endProcessing "net\ddani\tutorial\init\ModItems.java"
+
+startProcessing "net\ddani\tutorial\item\ItemTutorial.java" md5: 8ff516a2a946b0745fb5920963e70eda
+endProcessing "net\ddani\tutorial\item\ItemTutorial.java"
+
+startProcessing "net\ddani\tutorial\item\SteelIngot.java" md5: 6e4e60b7392ba391e3cfd25f577124e4
+endProcessing "net\ddani\tutorial\item\SteelIngot.java"
+
+startProcessing "net\ddani\tutorial\lib\Names.java" md5: 9e6531098cc89508bffe24386522762c
+endProcessing "net\ddani\tutorial\lib\Names.java"
+
