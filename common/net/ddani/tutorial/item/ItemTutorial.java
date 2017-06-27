@@ -17,7 +17,6 @@ public class ItemTutorial extends Item {
 	
 	public ItemTutorial() {
 		setMaxStackSize(64);
-		setCreativeTab(Tutorial.tabTutorial);
 	}
 	@Override
 	 public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn)

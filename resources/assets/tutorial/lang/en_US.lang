@@ -1,6 +1,7 @@
 #Items
 item.tutorial:tutorial_item.name=Tutorial Item
 item.tutorial:steel_ingot.name=Steel Ingot
+item.tutorial:pickaxe.name=Steel Pickaxe
 #Blocks
 tile.tutorial:tutorial_block.name=Tutorial Block
 #CreativeTabs

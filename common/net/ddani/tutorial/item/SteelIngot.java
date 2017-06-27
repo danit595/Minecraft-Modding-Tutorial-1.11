@@ -18,7 +18,6 @@ public class SteelIngot extends Item {
 
 	public SteelIngot() {
 		setMaxStackSize(64);
-		setCreativeTab(Tutorial.tabTutorial);
 	}
 	
 	public void addRecipes(){

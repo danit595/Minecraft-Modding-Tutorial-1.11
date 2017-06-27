@@ -18,7 +18,7 @@ public class Tutorial {
 	public static final String 
 			mod_id = "tutorial", 
 			mod_name = "Advanced Evolution",
-			version="@VERSION@",
+			version="0.1",
 			dependencies="required-after:forge@[13.19.1.2188,)",
 			resource_prefix= mod_id.toLowerCase() + ":"
 			;
