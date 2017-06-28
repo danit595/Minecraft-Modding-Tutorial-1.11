@@ -24,10 +24,12 @@ DIR_OUTPUT_BLOCKSTATES = 'output/blockstates/'
 DIR_OUTPUT_BLOCKS = 'output/models/block/'
 DIR_OUTPUT_ITEMS = 'output/models/item/'
 
+
 def createDirIfNeeded(name):
     """Create a directory if it does not exist."""
     if not os.path.exists(name):
         os.makedirs(name)
+
 
 def createAllDirs():
     """Create all directories we may need."""
@@ -35,8 +37,10 @@ def createAllDirs():
     createDirIfNeeded(DIR_OUTPUT_BLOCKS)
     createDirIfNeeded(DIR_OUTPUT_ITEMS)
 
+
 def writeBlockJSON(name, texture, variantKey, variantValues):
-    """Creates a Forge blockstate JSON for the block.
+    """Create a Forge blockstate JSON for the block.
+
     Arguments:
     name -- The name to give the files (.json is automatically appended)
     texture -- The name of the texture to use.
